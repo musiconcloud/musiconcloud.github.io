@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 	</head>
 	<body class="is-preload">
 
@@ -41,11 +42,15 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<h1>This is a post</h1>
-									<p>Content</p>
+									<h1>World News Map</h1>
+									<p>Bringing You Latest News from All Over the World!</p>
 								</header>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p> Test </p>
+								<iframe src="map.html" width="1200" height="800"> </iframe>
+								<p></p>
+								<p> Each country lights up on hover and displays 3 latest news articles on click. I collected the data via 
+								<a href="https://pypi.org/project/gnews/"> GNews API </a> 
+								and rendered the world map with said effects via <a href=" https://python-visualization.github.io/folium/"> 
+								folium </a> package. My Python script is scheduled to automate twice daily: 6AM and 6PM KST. </p>
 								</section>
 
 					</div>
